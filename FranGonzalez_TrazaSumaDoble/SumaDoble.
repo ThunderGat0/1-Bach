@@ -1,0 +1,17 @@
+int sumaDoble ( int n ) 
+
+{
+
+    int s;
+
+    if ( n == 0 ) 
+
+        s = 0; 
+
+    else if ( n > 0 ) 
+
+        s = sumaDoble( n-1 ) + 2*n; 
+
+    return s;
+
+} 
